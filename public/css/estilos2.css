@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    background: #DBDBDB;
+}
+
+ul {
+    list-style: none;
+}
+
+.p1 {
+    text-align: center;
+}
+
+.producto {
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+}
+
+header {
+    background: #EAC926;
+    border-radius: 5px;
+}
+
+.opciones {
+    position: relative;
+    left: 46%;
+    width: 5%;
+    height: 3%;
+    color: white;
+}
+
+.opcionesH {
+    width: 40px;
+    height: 40px;
+    background-color: #03264C;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.icono_footer {
+    width: 2em;
+    height: 2em;
+    margin-right: 1%;
+    color: #03264C;
+}
+
+.titulos, .titulos2 {
+    font-size: 24px;
+}
+
+.titulos2 {
+    margin-top: 200px;
+}
+
+main {
+    width: 100vw;
+}
+
+article {
+    margin: 10px;
+    /* border-radius: 10px; */
+}
+
+.detalle_producto {
+    border-top: 1px solid #ebebeb;
+    margin: 15px;
+    margin-right: 45%;
+    margin-top: 40px;
+    text-align: left;
+}
+
+/* .truck {
+    width: 30px;
+    height: 30px;
+} */
+
+.circle {
+    border: 1px solid green;
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    left: 300px;
+    background: white;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos, .descripciones {
+    font-size: 16px;
+}
+
+.descripciones {
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+.descuentos {
+    color: green;
+    font-size: 18px;
+    width: 80px;
+    height: 22px;
+}
+
+.carSend {
+    width: 25px;
+    height: 25px;
+    color: green;
+    margin-right: 4%;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.rowSend {
+    width: 25px;
+    height: 25px;
+    color: green;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+footer section {
+    text-align: center;
+}
+
+.banner {
+    padding-top: 10px;
+}
+
+.img_banner {
+    width: 100%;
+    height: 100px;
+}
+
+
+.ingresoUsuariosForm, .registroUsuariosForm {
+    background-color: #DFE0DE;
+    border-radius: 5px;
+    padding: 5px;
+    border-bottom: 5px;
+}
+
+.registroUsuariosForm {
+    background-color: #DFE0DE;
+}
+
+#ingresoUsers, .ingresoUsuarios, #registroUsuarios, .registroUsuarios {
+    text-align: center;
+}
+
+.bodyIngreso, .bodyRegistro {
+    background-image: url('../img/fondoIngreso.jpg');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#email, #clave {
+    width: 300px;
+    height: 30px;
+}
+
+.iconosIngreso {
+    color: #03264C;
+    width: 20px;
+    height: 20px;
+}
+
+#enviarIngreso, #enviarRegistro, #limpiarRegistro {
+    width: 100px;
+    height: 40px;
+    background-color: #3552fb;
+    width: 300px;
+}
+
+#nombreApellido, #nombreUsuario, #fechaNacimiento, #domicilio, #contraseñaR, #confContraseña {
+    width: 300px;
+    height: 30px;
+}
+
+.logo_ml {
+    width: 50%;
+}
+
+.barra_busqueda {
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.logoYBusqueda {
+    display: flex;
+}
+
+.precioDescuentos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.labels {
+    font-weight: bold;
+}
+
+.opcionesCheck {
+    display:block;
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 100px;
+    padding-top: 5px;
+}
+
+.one {
+    margin-top: 40px;
+}
+
+.opCheck {
+    display: inline-block;
+}
+
+.piePagina {
+    margin-top: 220px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.piePaginaIngreso {
+    background-color: white;
+    margin-top: 20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.back {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+@media(min-width: 768px) {
+    article {
+        text-align: center;
+    }
+
+    .descripciones {
+        color: #666;
+    }
+
+    .img_banner {
+        height: 150px;
+    }
+
+    .articulos1, .articulos2 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .articulos1 {
+        height: 100%;
+    }
+
+    .articulos2 {
+        margin-top: 190px;
+    }
+
+
+    #email, #clave {
+        width: 700px;
+        height: 40px;
+    }
+
+    #nombreApellido, #nombreUsuario, #fechaNacimiento, #domicilio, #contraseñaR, #confContraseña {
+        width: 700px;
+        height: 40px;
+    }
+
+    .detalle_producto {
+        position: absolute;
+        margin-bottom: 100px;
+    }
+
+    .piePagina {
+        margin-top: 220px;
+    }
+
+    .logoBusquedaYCompra {
+        display:flex;
+    }
+
+    .p1 {
+        margin-top: 60px;
+        margin-left: 270px;
+    }
+
+    .nav1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .list1, .list2 {
+        display: flex;
+    }
+
+    .list1 {
+        justify-content: left;;
+    }
+
+    .op1 {
+        padding: 20px;
+    }
+
+    .descuentos {
+        padding-left: 10px;
+    }
+    #ingresoUsers {
+        margin-top: 20px;
+    }
+
+    .circle {
+        margin-left: 70px;
+    }
+}
+
+@media(min-width: 1200px) {
+    .img_banner {
+        height: 200px;
+    }
+
+    #nombreApellido, #nombreUsuario, #fechaNacimiento, #domicilio, #contraseñaR, #confContraseña {
+        width: 900px;
+        height: 40px;
+    }
+
+    .articulosParte1, .articulosParte2 {
+        display: flex;
+    }
+
+    .seccion2 {
+        margin-top: 170px;
+    }
+
+    .piePagina {
+        margin-top: 220px;
+        background-color: white;
+    }
+    .piePaginaIngreso {
+        background-color: white;
+        margin-top: 20px;
+    }
+    .articulos2 {
+        margin-top: 0px;
+    }
+
+    .circle {
+        left: 100px;
+    }
+
+    .descuentos {
+        padding-left: 10px;
+    }
+
+    .p1 {
+        text-align: center;
+    }
+
+    .producto:hover {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+
+    section .icono_footer:hover {
+        color: #00c01a;
+    }
+}

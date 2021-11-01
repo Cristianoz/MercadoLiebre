@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingreso a Mercado Liebre</title>
+    <link rel="stylesheet" href="./css/estilos2.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body class="bodyIngreso">
+    
+    <header>
+        <img src="./img/logo-mercado-liebre.svg" alt="" class="logo_ml">
+        <div class="logoBusquedaYCompra">
+            <div class="logoYBusqueda">
+                <p>
+                    <input type="search" name="barra_busqueda" placeholder="Busca productos, marcas" class="barra_busqueda"><i class="fas fa-search"></i>
+                </p>
+            </div>
+            <p class="p1">
+                <i class="fas fa-money-check-alt"></i>Compra en cuotas y sin tarjeta de credito
+            </p>
+        </div>
+        
+        <nav>
+            <div class="nav1">
+                <ul class="list1">
+                    <li><a href="#" class="op1">Ofertas</a></li>
+                    <li><a href="#" class="op1">Tiendas </a></li>
+                    <li><a href="#" class="op1">Vender</a></li>
+                    <li><a href="#" class="op1">Ayuda</a></li>
+                </ul>
+                <ul class="list2">
+                    <li><a href="/registro.html" class="op1">Crea Tu Cuenta<i class="fas fa-user-circle"></i></a> </li>
+                    <li><a href="/ingreso.html" class="op1">Ingresa<i class="fas fa-sign-in-alt"></i></a></li>
+                    <li><a href="#" class="op1">Mis Compras<i class="fas fa-shopping-bag"></i></a></li>
+                </ul>
+            </div>
+            <span class="opciones">
+                <ion-icon name="reorder-four" class="opcionesH"></ion-icon>
+            </span>
+        </nav>
+        <h1 class="ingresoUsuarios">Ingreso de Usuarios</h1>
+    </header>
+    <div class="cajaPrincipalIngreso">
+        <div class="segundaCajaPrincipalIngreso">
+            <div class="ingresoUsuariosForm">
+                <form action="/" name="ingresoUsers" id="ingresoUsers">
+                    <p>
+                        <ion-icon name="person-circle-outline" class="iconosIngreso"></ion-icon>
+                        <label for="email" class="labels">Usuario</label>
+                        <input type="email" name="email" id="email" placeholder="user@example.com" required>
+                    </p>
+                    <p>
+                        <ion-icon name="eye-off-outline" class="iconosIngreso"></ion-icon>
+                        <label for="clave" class="labels">Clave</label>
+                        <input type="password" name="clave" id="clave" placeholder="Introduce tu Contraseña" required>
+                    </p>
+                    <p>
+                        <input type="submit" name="enviarIngreso" id="enviarIngreso" value="Ingresar">
+                    </p>
+                    <p class="opcionesRegistroContraseña">
+                        <h3><a href="#">¿Olvidaste tu Contraseña?</a></h3>
+                    </p>
+                    <p>
+                        <h3><a href="./registro.html">¿No tienes una cuenta? Registrate</a></h3>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="piePaginaIngreso">
+        <section>
+            <ion-icon name="card" class="icono_footer"></ion-icon>
+            <h3>Pagá con tarjeta de credito o en efectivo</h3>
+            <p>Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p>
+        </section>
+        <section>
+            <ion-icon name="gift" class="icono_footer"></ion-icon>
+            <h3>Envío gratis desde $ 2.500</h3>
+            <p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p>
+        </section>
+        <section>
+            <ion-icon name="shield-half" class="icono_footer"></ion-icon>
+            <h3>Seguridad, de principio a fin</h3>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer,
+                porque estás siempre protegid@.</p>
+        </section>
+    </footer>
+    <section class="white">
+        Copyright © 1999-2020 MercadoLiebre S.R.L.
+    </section>
+</body>
+</html>
